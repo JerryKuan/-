@@ -1,0 +1,56 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Personal_hobby</title>
+    <script src="./echarts.min.js"></script>
+</head>
+<body>
+<div id="main" style="width: 900px;height: 600px;"></div>
+    <script type="text/javascript">
+    var myChart=echarts.init(document.getElementById('main'));
+    var option = option = {
+    title : {
+        text: '12,26 2015  Personal hobby',
+        subtext: 'SID:110928597',
+        left:'center'
+    },
+    toolbox:{
+        show:true,
+        feature:{
+            saveAsImage:{
+                show:true
+            }
+        }
+    },
+    legend: {
+        orient: 'vertical',
+        left: 'left',
+        data: ['Cpmputer network','Entertainment and leisure','cultural education',
+               'Life service','Other']
+    },
+    series : [
+        {
+            name: 'Access source',
+            type: 'pie',
+            radius : '55%',
+            center: ['50%', '50%'],
+            data:[
+                {value:53, name:'Cpmputer network'},
+                {value:29, name:'Entertainment and leisure'},
+                {value:3, name:'cultural education'},
+                {value:11, name:'Life service'},
+                {value:4, name:'Other'}
+            ],
+        }
+    ],
+    tooltip : {
+        trigger: 'item',
+        formatter: "{a} <br/>{b} {c} <br/>({d}%)"
+    }
+};
+    myChart.setOption(option);
+    </script>
+</body>
+</html>

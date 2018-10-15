@@ -1,0 +1,18 @@
+c:\users\truth\documents\visual studio 2013\Projects\Analysis_test\Analysis_test\bin\Analysis_test.dll.config
+c:\users\truth\documents\visual studio 2013\Projects\Analysis_test\Analysis_test\bin\Analysis_test.dll
+c:\users\truth\documents\visual studio 2013\Projects\Analysis_test\Analysis_test\bin\Analysis_test.pdb
+c:\users\truth\documents\visual studio 2013\Projects\Analysis_test\Analysis_test\bin\Analysis_test.xml
+c:\users\truth\documents\visual studio 2013\Projects\Analysis_test\Analysis_test\obj\Debug\Analysis_test.Resources.resources
+c:\users\truth\documents\visual studio 2013\Projects\Analysis_test\Analysis_test\obj\Debug\Analysis_test.vbproj.GenerateResource.Cache
+c:\users\truth\documents\visual studio 2013\Projects\Analysis_test\Analysis_test\obj\Debug\Analysis_test.dll
+c:\users\truth\documents\visual studio 2013\Projects\Analysis_test\Analysis_test\obj\Debug\Analysis_test.xml
+c:\users\truth\documents\visual studio 2013\Projects\Analysis_test\Analysis_test\obj\Debug\Analysis_test.pdb
+C:\Users\13693\Desktop\实训\Analysis_test\Analysis_test\bin\Analysis_test.dll.config
+C:\Users\13693\Desktop\实训\Analysis_test\Analysis_test\bin\Analysis_test.dll
+C:\Users\13693\Desktop\实训\Analysis_test\Analysis_test\bin\Analysis_test.pdb
+C:\Users\13693\Desktop\实训\Analysis_test\Analysis_test\bin\Analysis_test.xml
+C:\Users\13693\Desktop\实训\Analysis_test\Analysis_test\obj\Debug\Analysis_test.Resources.resources
+C:\Users\13693\Desktop\实训\Analysis_test\Analysis_test\obj\Debug\Analysis_test.vbproj.GenerateResource.Cache
+C:\Users\13693\Desktop\实训\Analysis_test\Analysis_test\obj\Debug\Analysis_test.dll
+C:\Users\13693\Desktop\实训\Analysis_test\Analysis_test\obj\Debug\Analysis_test.xml
+C:\Users\13693\Desktop\实训\Analysis_test\Analysis_test\obj\Debug\Analysis_test.pdb

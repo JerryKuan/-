@@ -1,0 +1,64 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Top_10</title>
+    <script src="./echarts.min.js"></script>
+</head>
+<body>
+<div id="main" style="width: 900px;height: 600px;"></div>
+    <script type="text/javascript">
+    var myChart=echarts.init(document.getElementById('main'));
+    var option = {
+    title: {
+        text: '12,26 2015 Top 10',
+        subtext: 'Top 10 distribution',
+        left:'center'
+    },
+    tooltip: {
+        trigger: 'axis',
+        axisPointer: {
+            type: 'shadow'
+        }
+    },
+    grid: {
+        left: '3%',
+        right: '4%',
+        bottom: '3%',
+        containLabel: true
+    },
+    xAxis: {
+        type: 'value',
+        boundaryGap: [0, 0.01]
+    },
+    yAxis: {
+        type: 'category',
+        data: ['hyit.edu.cn','www.taobao.com','qq.com','weishao.com.cn','qhimg.com','360.cn','www.hasjdx.cn','microsoft.com','get.souhu.com','jwxt.hyit.edu.cn']
+    },
+    series: [
+        {
+            name: '12,26,2015',
+            type: 'bar',
+            data: [96706, 93888, 62218, 43130,43073, 36011,
+                   31526,30819,27549,25128
+                  ],
+            markPoint:{
+                data:[
+                     {type:'max',name:'max'},
+                     {type:'min',name:'Min'}
+                ],
+                itemStyle:{
+                    normal:{
+                        color:'blue'
+                    }
+                }
+            },
+        },
+
+    ]
+};
+    myChart.setOption(option);
+    </script>
+</body>
+</html>
